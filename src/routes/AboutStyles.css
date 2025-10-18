@@ -52,6 +52,10 @@
   margin-bottom: 40px;
 }
 
+.linkedin-icon,
+.github-icon {
+  margin-right: 10px;
+}
 
 @media (max-width: 50em) {
   .about-background {
@@ -82,4 +86,10 @@
   .education {
     margin-bottom: 40px;
   }
+
+  .button-container {
+  text-align: left;
+  margin-top: 10px;
+}
+
 }

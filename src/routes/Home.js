@@ -15,7 +15,7 @@ function Home() {
         <div className="content">
           <div className="intro">
             <h1>Hello, I’m Asya Seagrave.</h1>
-            <p>Junior Developer with background in Economics + Translation</p>
+            <p>Junior Developer and a Second Year Student at the University of Dundee</p>
 
             <MyButton to="/projects" text="View My Projects" />
           </div>

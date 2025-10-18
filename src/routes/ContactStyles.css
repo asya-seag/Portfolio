@@ -12,10 +12,6 @@ body {
 
 .contact-left {
   flex: 1;
-  text-align: left;
-  font-size: 4rem;
-  margin: 1rem 1rem;
-  padding-top: 40px;
 }
 
 .contact-right {
@@ -58,13 +54,59 @@ body {
   color: #bbed2f;
 }
 
+.contact-form {
+  text-align: center;
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+
+.contact-form label {
+  font-size: 1.6rem; 
+  color: #bbed2f; 
+  margin: 0; 
+  padding: 5px 0 2px 0; 
+}
+
+.contact-form textarea,
+.contact-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  margin-top: 5px; 
+}
+
+
+
+Form {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.submit-button {
+  width: 60%;
+  background-color: #bbed2f;
+  color: #000000;
+  padding: 12px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 15px 0;
+}
+
+.submit-button:hover {
+  background-color: #aacc1e;
+}
 
 @media (max-width: 50em) {
   .get-in-touch-button,
   .mobile,
   .contact-link,
   .contact-heading {
-    font-size: 1.6rem; 
+    font-size: 1.3rem; 
     margin-left: 20px;
   }
 
@@ -75,10 +117,24 @@ body {
   
   .main-contact {
     flex-direction: column; 
+    margin-bottom: 50px;
   }
 
   .contact-left,
   .contact-right {
     margin: 0.3rem; 
   }
+
+  .contact-form {
+    max-width: 100%;
+    margin: 0 30px;
+    margin-top: 40px; 
+  }
+
+  .submit-button {
+    width: 100%; 
+  }
+
+
+ 
 }

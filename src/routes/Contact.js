@@ -1,7 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { Form, Input, TextArea, Button } from "semantic-ui-react";
+
 import { ReactComponent as LinkedinIcon } from "../images/linkedin.svg";
 import { ReactComponent as GitHubIcon } from "../images/github.svg";
+import Footer from "../components/Footer";
 
 import "./ContactStyles.css";
 
@@ -11,11 +14,50 @@ const handleEmailClick = () => {
 
 const Contact = () => {
   return (
-    <div> 
+    <div>
       <Navbar />
       <div className="main-contact">
         <div className="contact-left">
           <h1 className="contact-heading">Get in touch</h1>
+          <div className="contact-form">
+            <Form /*onSubmit={handleOnSubmit}*/>
+              <Form.Field
+                id="form-input-control-name"
+                control={Input}
+                label="Name"
+                name="user_name"
+                placeholder="Name"
+                required
+              />
+              <Form.Field
+                id="form-input-control-email"
+                control={Input}
+                label="Email"
+                name="user_email"
+                placeholder="Email"
+                required
+              />
+               <Form.Field
+                id="form-input-control-subject"
+                control={Input}
+                label="Subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+              <Form.Field
+                id="form-textarea-control-opinion"
+                control={TextArea}
+                label="Message"
+                name="user_message"
+                placeholder="Message…"
+                required
+              />
+              <Button className="submit-button">
+                Send Message
+              </Button>
+            </Form>
+          </div>
         </div>
 
         <div className="contact-right">
@@ -37,6 +79,7 @@ const Contact = () => {
           </a>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
