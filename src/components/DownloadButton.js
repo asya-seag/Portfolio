@@ -14,6 +14,7 @@ const DownloadButton = ({ text, file }) => {
   );
 };
 
+export default DownloadButton;
 
 
 
