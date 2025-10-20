@@ -19,10 +19,10 @@ const Contact = () => {
       <div className="main-contact">
         
          <div className="contact-left">
-          /*
           <h1 className="contact-heading">Get in touch</h1>
+          {/* 
           <div className="contact-form">
-            <Form /*onSubmit={handleOnSubmit}*/>
+            <Form onSubmit={handleOnSubmit}>
               <Form.Field
                 id="form-input-control-name"
                 control={Input}
@@ -60,7 +60,7 @@ const Contact = () => {
               </Button>
             </Form>
           </div>
-          */
+          */}
         </div>
 
         <div className="contact-right">
