@@ -17,7 +17,9 @@ const Contact = () => {
     <div>
       <Navbar />
       <div className="main-contact">
-        <div className="contact-left">
+        
+         <div className="contact-left">
+          /*
           <h1 className="contact-heading">Get in touch</h1>
           <div className="contact-form">
             <Form /*onSubmit={handleOnSubmit}*/>
@@ -58,6 +60,7 @@ const Contact = () => {
               </Button>
             </Form>
           </div>
+          */
         </div>
 
         <div className="contact-right">

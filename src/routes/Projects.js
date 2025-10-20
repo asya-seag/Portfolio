@@ -50,6 +50,20 @@ const Projects = () => {
       image: project5,
       githubLink: "https://github.com/asya-seag/CSS_HTML_practice_project1",
     },
+    {
+      title: "WebMuddy Paws - Bootstrap practice website ",
+      description:
+        "This is a project I completed independently as part of my front-end development course, practicing implementation of basic and advanced elements using Bootstrap. Implementing this project allowed me to practice making responsive websites suitable for variety of screen sizes.",
+      image: project6,
+      githubLink: "https://github.com/asya-seag/website_Bootstrap",
+    },
+    {
+      title: "McLaren- Bootstrap practice website ",
+      description:
+        "This is a team project for practicing implementation of basic and advanced elements using Bootstrap. Implementing this project allowed me to understand better how working with team on single repository works, practice branching in Git and it taught me the importance of conducting code reviews as a team. I completed Racing history F1 page and some basic layout features (Header & Footer).",
+      image: project7,
+      githubLink: "https://github.com/Naun-14/GroupJMcLarenF1",
+    },
   ];
 
   return (
