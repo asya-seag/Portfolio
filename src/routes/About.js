@@ -46,9 +46,6 @@ const About = () => {
             <div className="button-container">
               <DownloadButton file="/AsyaSeagraveCV.docx" text="Download CV" />
             </div>
-            <div className="button-container">
-              <DownloadButton file="/JobAd.docx" text="Download JobAD for assessement" />
-            </div>
 
 
           </div>
