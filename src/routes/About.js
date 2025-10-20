@@ -44,10 +44,10 @@ const About = () => {
             </p>
 
             <div className="button-container">
-              <DownloadButton file={`${process.env.PUBLIC_URL}/Asya_SeagraveCV.docx`} text="Download CV" />
+              <DownloadButton file="/Asya_SeagraveCV.docx" text="Download CV" />
             </div>
             <div className="button-container">
-              <DownloadButton file={`${process.env.PUBLIC_URL}/JobAd.docx`} text="Download JobAD for assessment" />
+              <DownloadButton file="/JobAd.docx" text="Download JobAD for assessement" />
             </div>
 
 
